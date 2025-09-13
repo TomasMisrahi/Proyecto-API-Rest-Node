@@ -5,13 +5,17 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+<<<<<<< HEAD
     "dev": "nodemon index.js",
+=======
+>>>>>>> 66a9a7babe888ca8593604e0947e36859e5b4234
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "castaño misrahi occofer",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.2",
+<<<<<<< HEAD
     "cors": "^2.8.5",
     "dotenv": "^17.2.2",
     "express": "^5.1.0",
@@ -20,5 +24,9 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
+=======
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+>>>>>>> 66a9a7babe888ca8593604e0947e36859e5b4234
   }
 }

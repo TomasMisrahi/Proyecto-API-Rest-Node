@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
@@ -35,3 +36,20 @@ app.listen(PORT, () => {
   console.log(`API SobraZero en el puerto ${PORT}`);
 });
  
+=======
+const dotenv = require('dotenv');
+dotenv.config();
+
+const chalk = require('chalk');
+
+const express = require('express');
+const server = express();
+
+const port = process.env.PORT;
+console.log(chalk.green("API"));
+
+
+server.listen(port, () => {
+    console.log(chalk.blue(`Servidor web corriendo en el puerto ${port}`));
+});
+>>>>>>> 66a9a7babe888ca8593604e0947e36859e5b4234
