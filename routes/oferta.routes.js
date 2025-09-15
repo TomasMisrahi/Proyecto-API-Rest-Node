@@ -2,10 +2,10 @@ const { Router } = require('express');
 const o = require('../controllers/oferta.controller');
 const router = Router();
 
-router.get('/', o.getOfertas);
-router.get('/:id', o.getOfertaById);
-router.post('/', o.createOferta);
-router.put('/:id', o.updateOferta);
-router.delete('/:id', o.deleteOferta);
+router.get('/', o.obtenerOferta);
+router.get('/:id', o.ofertaId);
+router.post('/', o.crearOferta);
+router.put('/:id', o.actualizarOferta);
+router.delete('/:id', o.borrarOferta);
 
 module.exports = router;

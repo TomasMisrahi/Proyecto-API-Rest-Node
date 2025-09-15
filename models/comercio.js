@@ -1,10 +1,10 @@
 const mongoose = require('mongoose');
 
 const comercioSchema = new mongoose.Schema({
-  nombre:     { type: String, required: true },
-  direccion:  { type: String, required: true },
-  telefono:   { type: String },
-  rubro:      { type: String, enum: ['Panadería','Supermercado','Rotisería','Verdulería','Restaurante'], required: true }
-}, { timestamps: true });
+  nombre:     String,
+  direccion:  String,
+  tel:        String,
+  rubro:      String
+});
 
 module.exports = mongoose.model('Comercio', comercioSchema);
