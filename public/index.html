@@ -3,16 +3,49 @@
 <head>
   <meta charset="utf-8">
   <title>API SobraZero</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
-  <h1>API SobraZero</h1>
+  
+  <main class="container mb-5">
+    <h1>API SobraZero</h1>
+    
+    <div class="card shadow-sm mb-4">
+      <div class="card-body">
+        <h2 class="h4 text-success">Descripción</h2>
+        <p>
+          La API de <strong>SobraZero</strong> permite gestionar la información de comercios y ofertas de alimentos con descuentos. 
+          Su objetivo es reducir el desperdicio de comida conectando panaderías, supermercados, verdulerías, rotiserías y restaurantes 
+          con usuarios que buscan ahorrar entre un 50% y un 70% en productos en perfecto estado, cercanos a su fecha de vencimiento.
+        </p>
+        <p>
+          A través de sus endpoints principales (/comercios y /ofertas), la API facilita:
+        </p>
+        <ul>
+          <li>Visualizar todos los documentos de una colección.</li>
+          <li>Obtener un documento específico por ID.</li>
+          <li>Crear nuevas ofertas o comercios.</li>
+          <li>Actualizar la información de un documento existente.</li>
+          <li>Eliminar registros.</li>
+        </ul>
+        <p class="mb-0">
+          De esta manera, SobraZero API brinda una base técnica que respalda el funcionamiento de la aplicación, 
+          asegurando transparencia, ahorro real y un impacto positivo en la reducción del desperdicio de alimentos.
+        </p>
+      </div>
+    </div>
+
   <p>Endpoints:</p>
-  <ul>
-    <li><a href="/api/comercios" target="_blank">/api/comercios</a></li>
-    <li><a href="/api/ofertas" target="_blank">/api/ofertas</a></li>
-  </ul>
+        <h2 class="mt-4">Endpoints</h2>
+<ul>
+  <li><a class="btn btn-success btn-sm" href="/api/usuarios" target="_blank">GET /api/usuarios</a></li>
+  <li><a class="btn btn-success btn-sm" href="/api/comercios" target="_blank">GET /api/comercios</a></li>
+  <li><a class="btn btn-success btn-sm" href="/api/ofertas" target="_blank">GET /api/ofertas</a></li>
+</ul>
+
+  </main>
   <footer>
-    <p><strong>Nombre:</strong> Castaño Misrahi Occofer | <strong>Materia:</strong> Aplicaciones Híbridas | <strong>Docente:</strong> CRUZ, Jonathan Emanuel | <strong>Comisión:</strong> A-1331</p>
+    <p><strong>Nombre:</strong> Castaño, Misrahi, Occofer | <strong>Materia:</strong> Aplicaciones Híbridas | <strong>Docente:</strong> Cruz Jonathan Emanuel | <strong>Comisión:</strong> A</p>
   </footer>
 </body>
 </html>
